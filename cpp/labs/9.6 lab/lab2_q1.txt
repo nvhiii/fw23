@@ -1,0 +1,27 @@
+lab 2 question 1:
+
+1)
+a. cin >> x >> y >> z >> ch;
+
+Answer: x = 78, y = 86, z = 18, ch = '#' (remaining input in stream: 42&)
+
+b. cin >> ch >> x >> y >> z;
+
+Answer: ch = '7', x = 8, y = 86, z = 18
+
+c. 
+cin >> x;
+cin.get(ch);
+cin >> y >> z;
+
+Answer: x = 78, ch = ' ', y = 86, z = 18
+
+d. cin >> x >> ch >> y >> z;
+ 	cin.get(ch);
+
+Answer: x = 78, ch = '#', y = 86, z = 18
+
+e. cin >> x >> y >> z;
+
+Answer: x = 78, y = 86, z = 18, ch contains an uninitialized value (garbage)
+
