@@ -1,0 +1,4 @@
+The individual's name is: Nahi, Khan
+ Their initials are: N, K
+ Salary: $675000
+ Their employee ID: 16
