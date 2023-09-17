@@ -11,8 +11,13 @@ int main() {
 
     cout << "Please enter a message with multiple words: " << endl;
     cin >> msg;
+    cout << msg << endl;
 
     cin.ignore(100, '\n');
+
+    cout << "Please another another message with multiple words: " << endl;
+    getline(cin, msg);
+    cout << msg << endl;
 
     return 0;
 

@@ -19,7 +19,7 @@ int main() {
 
     cout << "This is the result of the peek: " << b << endl;
 
-    cin.clear();
+    cin.clear(); // restore input stream in working state
     cin.ignore(100, '\n');
 
     cin.get(b);
