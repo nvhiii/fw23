@@ -14,7 +14,7 @@ int main() {
     cout << (a > b) << endl; // false bc mismatch
     cout << (a == c) << endl; // true bc same
     cout << (a > c) << endl; // false bc they're the same
-    cout << (b > " ") << endl;
+    cout << (b > " ") << endl; // true bc length is bigger
 
     return 0;
 
