@@ -15,7 +15,7 @@ int main() {
 
     cin.ignore(100, '\n');
 
-    cout << "Please another another message with multiple words: " << endl;
+    cout << "Please enter another message with multiple words: " << endl;
     getline(cin, msg);
     cout << msg << endl;
 

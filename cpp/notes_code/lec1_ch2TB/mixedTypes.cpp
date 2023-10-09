@@ -13,7 +13,8 @@ int main() {
     x = 5;
     a = 2.5;
 
-    cout << x * a;
+    cout << x * a << endl;
+    cout << x + a;
 
     return 0;
 

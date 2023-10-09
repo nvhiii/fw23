@@ -25,9 +25,11 @@ int main() {
     f = fName[0];
     l = lName[0];
 
+    output << setprecision(2) << showpoint;
+
     output << "The individual's name is: " << fName << ", " << lName
            << "\n Their initials are: " << f << ", " << l 
-           << "\n Salary: $" << salary << setprecision(2) 
+           << "\n Salary: $" << salary 
            << "\n Their employee ID: " << ID << endl;
 
     input.close();
